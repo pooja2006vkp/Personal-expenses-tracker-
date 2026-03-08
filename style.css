@@ -1,0 +1,14 @@
+body {font-family: Arial, sans-serif; background-color: #f0f0f0; margin: 0; padding: 20px;}
+.container {max-width: 800px; margin: auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);}
+form {display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;}
+form input, form select, form button {padding: 10px; border: 1px solid #ccc; border-radius: 4px;}
+form button {background: #28a745; color: white; border: none; cursor: pointer;}
+form button:hover {background: #218838;}
+table {width: 100%; border-collapse: collapse; margin-bottom: 20px;}
+th, td {padding: 10px; border: 1px solid #ddd; text-align: left;}
+th {background: #f8f8f8;}
+.total-amount {text-align: right; font-size: 18px;}
+.filter {text-align: right;}
+.edit-btn, .delete-btn {padding: 5px 10px; margin: 0 2px; border: none; border-radius: 3px; cursor: pointer;}
+.edit-btn {background: #007bff; color: white;}
+.delete-btn {background: #dc3545; color: white;}
